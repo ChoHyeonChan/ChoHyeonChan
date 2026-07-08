@@ -13,7 +13,7 @@ LLM의 출력에는 항상 검증 계층을 둡니다. 판정만 던지는 대�
 LLM이 내놓은 매매 판단을 그대로 신뢰하지 않고, 기술지표 기반 검증 계층으로 독립 검증·차단하는 암호화폐 트레이딩 어시스턴트.
 `Next.js 14` `TypeScript` `OpenAI API` `Binance API`
 
-**[Pawsitive](https://github.com/ChoHyeonChan/Pawsitive)** · 캡스톤 디자인 (팀 프로젝트)
+**[Pawsitive](https://github.com/ChoHyeonChan/Pawsitive)** · 캡스톤 디자인 — **팀장 · 풀스택 개발**
 반려견 통합 관리 AI 플랫폼. 산책 매칭 · 건강 분석 · AI 상담 · 전문가 매칭 · 커뮤니티 · 교육을 하나의 플랫폼으로.
 `JavaScript`
 
@@ -28,4 +28,4 @@ LLM이 내놓은 매매 판단을 그대로 신뢰하지 않고, 기술지표 �
 
 **unmask** — 계약서의 독소조항과 스미싱 문자의 정체를 판독하는 AI 생활 리스크 서비스
 차단하거나 조회해주는 데서 끝나지 않고, 원문의 어느 문장에서 위험이 도출됐는지 근거와 함께 설명합니다.
-*CODEGATE 2026 AI 스타트업 해커톤 참가 (2026.07)*
+*CODEGATE 2026 AI 스타트업 해커톤 예선 제출 (2026.07)*
