@@ -17,8 +17,9 @@ LLM이 내놓은 매매 판단을 그대로 신뢰하지 않고, 기술지표 �
 반려견 통합 관리 AI 플랫폼. 산책 매칭 · 건강 분석 · AI 상담 · 전문가 매칭 · 커뮤니티 · 교육을 하나의 플랫폼으로.
 `JavaScript`
 
-**[밥BTI](https://github.com/ChoHyeonChan/2026-kookmin-ai-workflow-team1)** · AWS 부트캠프 AI Workflow — **팀장 · 기획 · 개발**
+**[밥BTI](https://github.com/ChoHyeonChan/2026-kookmin-ai-workflow-team1)** · 국민대 AI 플랫폼 개발 특강 (KMU · NxtCloud · AWS) — **팀장 · 기획 · 개발** · 🏆 **대상**
 음식 취향 30초 입력 → 밥메이트 매칭 + 메뉴 추천 + AI 코멘트. 하루 만에 기획부터 S3 배포까지 완주.
+결과물 완성도와 Git upstream 협업 과정을 종합 심사해 3인 팀 대상 수상.
 상호작용 이력이 없는 콜드스타트 상황이라 행렬분해(ALS/SVD++) 대신 항목별 유사도 가중합을 택했습니다. 정확도를 조금 내주는 대신 **"왜 이 사람과 묶였는지"가 설명되는** 매칭을 얻었습니다.
 `HTML` `Firebase Realtime DB` `AWS Bedrock` `S3`
 
