@@ -13,6 +13,11 @@ LLM의 출력에는 항상 검증 계층을 둡니다. 판정만 던지는 대�
 LLM이 내놓은 매매 판단을 그대로 신뢰하지 않고, 기술지표 기반 검증 계층으로 독립 검증·차단하는 암호화폐 트레이딩 어시스턴트.
 `Next.js 14` `TypeScript` `OpenAI API` `Binance API`
 
+**[받을각](https://github.com/ChoHyeonChan/badeulgak)** · 2026 K-AI 콘텐츠 공모전 출품 — **팀장 · 기획 · 개발** · 🔗 [라이브 서비스](https://chohyeonchan.github.io/badeulgak/)
+로그인·개인정보 수집 없이 나이·상황 6문항으로, 지금 신청 가능한 정부·지자체 지원제도를 30초 안에 찾아주는 웹앱. 100% AI 바이브코딩으로 개발·배포했습니다.
+복지 정보는 환각이 섞이면 치명적이라 매칭을 LLM 호출 없는 결정론적 규칙(자격 하드필터 → 스코어링)으로 설계했고, 입력 가능한 1,184개 조합을 전수 감사해 **자격 위반 추천 0건**을 검증했습니다.
+`JavaScript` `GitHub Pages` `GitHub Actions` `공공데이터 API`
+
 **[Pawsitive](https://github.com/ChoHyeonChan/Pawsitive)** · 캡스톤 디자인 — **팀장 · 풀스택 개발**
 반려견 통합 관리 AI 플랫폼. 산책 매칭 · 건강 분석 · AI 상담 · 전문가 매칭 · 커뮤니티 · 교육을 하나의 플랫폼으로.
 `JavaScript`
