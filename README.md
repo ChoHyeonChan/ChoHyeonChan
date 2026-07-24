@@ -26,9 +26,11 @@ LLM이 내놓은 매매 판단을 그대로 신뢰하지 않고, 기술지표 �
 복지 정보는 환각이 섞이면 치명적이라 매칭을 LLM 호출 없는 결정론적 규칙(자격 하드필터 → 스코어링)으로 설계했고, 입력 가능한 1,184개 조합을 전수 감사해 **자격 위반 추천 0건**을 검증했습니다.
 `JavaScript` `GitHub Pages` `GitHub Actions` `공공데이터 API`
 
-**[Pawsitive](https://github.com/ChoHyeonChan/Pawsitive)** · 캡스톤 디자인 — **팀장 · 풀스택 개발**
+**[Pawsitive](https://github.com/ChoHyeonChan/Pawsitive)** · 캡스톤 디자인 (팀 원본 [kookmin-sw/2026-capstone-55](https://github.com/kookmin-sw/2026-capstone-55)) — **팀장 · 풀스택 개발**
 반려견 통합 관리 AI 플랫폼. 산책 매칭 · 건강 분석 · AI 상담 · 전문가 매칭 · 커뮤니티 · 교육을 하나의 플랫폼으로.
-`JavaScript`
+Gemini 1차 판단 + Claude 자동 폴백(503 시, 최대 3회 재시도)으로 이중화한 AI 상담에 멀티모달(이미지 Vision 분석)과 ChatGPT식 세션 관리를 얹었고, 전문 훈련사 유튜브 영상을 AI로 요약·정리해 구축한 RAG 지식베이스를 16개 → 484개로 확장했습니다.
+견종 대백과사전을 20종 → 383종으로 확장하고 Wikimedia 실사진을 중복 0건으로 전량 적용했으며, 교육센터(10파트 38콘텐츠 + 퀴즈)까지 구현.
+`Node.js` `Express` `Socket.IO` `Gemini API` `Claude API` `Passport.js`
 
 **[밥BTI](https://github.com/ChoHyeonChan/2026-kookmin-ai-workflow-team1)** · 국민대 AI 플랫폼 개발 특강 (KMU · NxtCloud · AWS) — **팀장 · 기획 · 개발** · 🏆 **대상**
 음식 취향 30초 입력 → 밥메이트 매칭 + 메뉴 추천 + AI 코멘트. 하루 만에 기획부터 S3 배포까지 완주.
