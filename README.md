@@ -47,8 +47,8 @@ LLM이 내놓은 매매 판단을 그대로 신뢰하지 않고, 기술지표 �
 
 **[Pawsitive](https://github.com/ChoHyeonChan/Pawsitive)** · 캡스톤 디자인 (팀 원본 [kookmin-sw/2026-capstone-55](https://github.com/kookmin-sw/2026-capstone-55)) — **팀장 · 풀스택 개발**
 반려견 통합 관리 AI 플랫폼. 산책 매칭 · 건강 분석 · AI 상담 · 전문가 매칭 · 커뮤니티 · 교육을 하나의 플랫폼으로.
-Gemini 1차 판단 + Claude 자동 폴백(503 시, 최대 3회 재시도)으로 이중화한 AI 상담에 멀티모달(이미지 Vision 분석)과 ChatGPT식 세션 관리를 얹었고, 전문 훈련사 유튜브 영상을 AI로 요약·정리해 구축한 RAG 지식베이스를 16개 → 484개로 확장했습니다.
-견종 대백과사전을 20종 → 383종으로 확장하고 Wikimedia 실사진을 중복 0건으로 전량 적용했으며, 교육센터(10파트 38콘텐츠 + 퀴즈)까지 구현.
+Gemini가 1차로 답하고 오류 시 재시도 후 Claude로 자동 전환하도록 이중화한 AI 상담에 멀티모달(이미지 Vision 분석)과 ChatGPT식 세션 관리를 얹었고, 전문 훈련사 유튜브 영상 등을 AI로 요약·정리해 구축한 RAG 지식베이스를 16개 → 1,087개(11개 분야)로 확장하고 벡터 임베딩+키워드 하이브리드 검색을 붙였습니다.
+견종 대백과사전을 20종 → 383종으로 확장하고 Wikimedia 실사진을 중복 0건으로 전량 적용했으며, 교육센터를 38개 → 44개 콘텐츠로 개편하고 5문항 퀴즈까지 구현.
 `Node.js` `Express` `Socket.IO` `Gemini API` `Claude API` `Passport.js`
 
 **[밥BTI](https://github.com/ChoHyeonChan/2026-kookmin-ai-workflow-team1)** · 국민대 AI 플랫폼 개발 특강 (KMU · NxtCloud · AWS) — **팀장 · 기획 · 개발** · 🏆 **대상**
